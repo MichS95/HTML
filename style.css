@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap')
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+background-color: rgb(43, 160, 144);
+width: 100;
+}
+a{
+    text-decoration: none;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 10px;
+}
+img {
+width:150px;
+}
+h1{
+font-size: 36px;
+color: blueviolet;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2{
+font-size: 24px;
+color: rgb(7, 112, 112);
+}
+p{
+font-size: 14px;
+color: black;
+}
+.presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.presentacion h1{
+    font-size: 35px;
+    color: rgb(77, 69, 69);
+}
+.presentacion p{
+    width: 70%;
+    font-size: 30px;
+    padding: 10px;
+    font-family:  font-family: "Dancing Script", cursive;
+}
+#nosotras{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#nosostras iframe{
+    padding: 10px;
+    margin: 10px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(207, 173, 240);
+}
+
+.caja {
+width: 100%;
+height: 100%;
+padding: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.caja img{
+border-radius: 50%;
+}
